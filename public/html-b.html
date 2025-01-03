@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widget B</title>
+  <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script> <!-- Script de Socket.IO -->
+</head>
+<body>
+  <div id="widget-b-root"></div>
+  <script src="./widget-b.umd.js"></script>
+  <script>
+    console.log(window.WidgetB); // Verifica que WidgetB está definido
+    WidgetB.renderWidgetB("#widget-b-root"); // Renderiza el Widget B
+  </script>
+</body>
+</html>
